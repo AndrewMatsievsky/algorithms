@@ -12,21 +12,20 @@ function mergeSort(arr: number[]): number[] {
 }
 
 function merge(left, right) {
-    let result = [];
-    let indexLeft = 0;
-    let indexRight = 0;
+    let leftIndex = 0;
+    let rightIndex = 0;
+    const result = [];
 
-    while (indexLeft < left.length && indexRight < right.length) {
-        if (left[indexLeft] < right[indexRight]) {
-            result.push(left[indexLeft]);
-            indexLeft++
+    while(leftIndex < left.length && rightIndex < right.length) {
+        if (left[leftIndex] < right[rightIndex]) {
+            result.push(left[leftIndex]);
+            leftIndex++;
         } else {
-            result.push(right[indexRight]);
-            indexRight++
+            result.push(right[rightIndex]);
+            rightIndex++;
         }
     }
-
-    return result.concat(left.slice(indexLeft)).concat(right.slice(indexRight))
+    return result.concat((left.slice(leftIndex))).concat(right.slice(rightIndex));
 }
 
-console.log(mergeSort([2, 8, 5, 3, 9, 4, 1, 7, 9]));
+console.log(mergeSort([2, 5, 1, 3, 4, 1, 0]));
