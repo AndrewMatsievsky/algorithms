@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ccd9300-ec1d-4e35-a435-cf50b1093367" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/array_number.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary_search.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insertion_sort.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linear_search.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selections_sort.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/merge.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/merge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/merge.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/merge.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/merge.ts" beforeDir="false" afterPath="$PROJECT_DIR$/merge.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickSort.ts" beforeDir="false" afterPath="$PROJECT_DIR$/quickSort.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_search.ts" beforeDir="false" afterPath="$PROJECT_DIR$/search/binary_search.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubble.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/bubble.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insertion_sort.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/insertion_sort.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_search.ts" beforeDir="false" afterPath="$PROJECT_DIR$/search/linear_search.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/merge.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickSort.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/quickSort.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selections_sort.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/selections_sort.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,26 +22,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quickSort.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/selections_sort.ts">
+        <entry file="file://$PROJECT_DIR$/sorting/quickSort.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="131">
+              <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/merge.ts">
+        <entry file="file://$PROJECT_DIR$/sorting/selections_sort.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorting/merge.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="46" />
@@ -53,7 +50,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/binary_search.ts">
+        <entry file="file://$PROJECT_DIR$/search/binary_search.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
@@ -92,6 +89,7 @@
         <option value="$PROJECT_DIR$/binary_search.ts" />
         <option value="$PROJECT_DIR$/quickSort.ts" />
         <option value="$PROJECT_DIR$/selections_sort.ts" />
+        <option value="$PROJECT_DIR$/sorting/quickSort.ts" />
       </list>
     </option>
   </component>
@@ -114,11 +112,6 @@
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -135,6 +128,12 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/search" />
+      <recent name="$PROJECT_DIR$/sorting" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,12 +189,12 @@
       <workItem from="1560190881205" duration="3767000" />
       <workItem from="1560237494953" duration="5678000" />
       <workItem from="1560258064098" duration="9450000" />
-      <workItem from="1560322142806" duration="17411000" />
+      <workItem from="1560322142806" duration="17731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53080000" />
+    <option name="totallyTimeSpent" value="53400000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -210,12 +209,12 @@
     <frame x="0" y="23" width="1680" height="930" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.24954791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" sideWeight="0.5008881" side_tool="true" weight="0.24954791" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38663486" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38663486" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33293557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -237,23 +236,23 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/bubble.ts</url>
+          <url>file://$PROJECT_DIR$/sorting/bubble.ts</url>
           <line>3</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/merge.ts</url>
+          <url>file://$PROJECT_DIR$/sorting/merge.ts</url>
           <line>29</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/merge.ts</url>
+          <url>file://$PROJECT_DIR$/sorting/merge.ts</url>
           <line>20</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/merge.ts</url>
+          <url>file://$PROJECT_DIR$/sorting/merge.ts</url>
           <line>23</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="99" />
@@ -291,7 +290,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bubble.ts">
+    <entry file="file://$PROJECT_DIR$/sorting/bubble.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
@@ -316,45 +315,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insertion_sort.ts">
+    <entry file="file://$PROJECT_DIR$/sorting/insertion_sort.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linear_search.ts">
+    <entry file="file://$PROJECT_DIR$/search/linear_search.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binary_search.ts">
+    <entry file="file://$PROJECT_DIR$/search/binary_search.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickSort.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merge.ts">
+    <entry file="file://$PROJECT_DIR$/sorting/merge.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selections_sort.ts">
+    <entry file="file://$PROJECT_DIR$/sorting/selections_sort.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="275">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/quickSort.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
         </state>
       </provider>
     </entry>

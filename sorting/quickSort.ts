@@ -28,7 +28,6 @@ const quickSortFilter = function(arr) {
     return [...quickSortFilter(left), pivot, ...quickSortFilter(right)];
 };
 
-
 const quickSortReduce = function(arr) {
     if (arr.length <= 1) return arr;
 
